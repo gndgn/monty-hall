@@ -23,10 +23,6 @@ let countDoorRevealed = [0, 0, 0];
 
 let games = 100000;
 
-// switchDoor: 
-// player is switching doors (boolean)
-// console output enabled (boolean)
-
 for(let i = 1; i <= games; i++) {
 	console.log("Game #" + i);
 	playGame(true, false);
